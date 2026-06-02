@@ -1,0 +1,15 @@
+
+react-native
+
+npx create-expo-app@latest weatherapp
+// สร้างโปรเจคชื่อ weatherapp
+
+//เลือก SDK 54
+
+//รอ
+
+
+cd weatherapp 
+//เข้าโฟลเดอร์โปรเจคที่สร้าง
+
+
