@@ -13,3 +13,5 @@ cd weatherapp
 //เข้าโฟลเดอร์โปรเจคที่สร้าง
 
 
+npx expo install @react-native-async-storage/async-storage expo-location expo-linear-gradient
+
