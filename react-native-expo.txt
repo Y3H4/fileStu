@@ -1,7 +1,7 @@
 
 react-native
 
-npx create-expo-app@latest weatherapp
+npx create-expo-app@latest weatherapp --template blank
 // สร้างโปรเจคชื่อ weatherapp
 
 //เลือก SDK 54
