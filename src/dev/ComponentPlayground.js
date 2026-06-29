@@ -4,6 +4,9 @@ import { LinearGradient } from "expo-linear-gradient"
 import { WEATHER_GRADIENTS } from '../constants/weathertheme'
 import { styles } from "../Styles/globalStyles"
 import emptyState from "../component/emptyState"
+import Apikeywaring from '../components/ApiKeyWarning'
+import Header from '../components/Header'
+import emptyState from '../components/EmptyState'
 
 export const PREVIEW = '_';
 const noop = () => Alert.alert(" Preview","ปุ่มทำงาน (โหมดทดสอบ)")
@@ -19,6 +22,8 @@ function PreviewBlock({title,children}){
 }
 
 export default function componentPlayground(){
+    const [,] = useState('Udonthani')
+
     const show = (name) => PREVIEW  === name;
 
     return (
